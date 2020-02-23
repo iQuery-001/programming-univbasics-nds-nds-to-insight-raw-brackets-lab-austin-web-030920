@@ -4,7 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   count = 0
   result = {}
-  while count < nds[count].length do
+  while count < nds.length do
     gross_counter = 0
     total_gross = 0
       while gross_counter < nds[count][:movies].length do
